@@ -13,12 +13,12 @@ Even numbers (besides 10) with algae.
 |11|<span style="color:green;">Green</span>|0|1|Check*|
 |2|<span style="color:green;">Green</span>|1|0|A|
 |12|<span style="color:green;">Green</span>|1|1|A*|
-|3|<span style="color:orange;">Orange</span>|1|0|!|
-|13|<span style="color:orange;">Orange</span>|1|1|!*|
+|3|<span style="color:orange;">Orange</span>|0|0|!|
+|13|<span style="color:orange;">Orange</span>|0|1|!*|
 |4|<span style="color:orange;">Orange</span>|1|0|A|
 |14|<span style="color:orange;">Orange</span>|1|1|A*|
-|5|<span style="color:red;">Red</span>|1|0|X|
-|15|<span style="color:red;">Red</span>|1|1|X*|
+|5|<span style="color:red;">Red</span>|0|0|X|
+|15|<span style="color:red;">Red</span>|0|1|X*|
 |6|<span style="color:red;">Red</span>|1|0|A|
 |16|<span style="color:red;">Red</span>|1|1|A*|
 |7|||||
