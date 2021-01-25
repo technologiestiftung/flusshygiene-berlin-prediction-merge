@@ -1,3 +1,7 @@
+_legacy
+.env
+temp
+
 # Logs
 logs
 *.log
