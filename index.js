@@ -14,8 +14,10 @@ const {
 } = require("./lib/util");
 
 async function main() {
-  if (!("LAGESO" in process.env) || !("FLUSSHYGIENE" in process.env)) {
-    throw Error("LAGESO and FLUSSHYGIENE are required as environmental variable");
+  if (!("LAGESO" in process.env) || !("FLUSSHYGIENE_API_HOST" in process.env)) {
+    throw Error(
+      "LAGESO and FLUSSHYGIENE_API_HOST are required as environmental variable"
+    );
   }
 
   const s3 = setupAWS();
@@ -24,9 +26,10 @@ async function main() {
     get(process.env.LAGESO, 'latin1')
       .then((data) => csv(lagesoFix(data), ";")),
     Promise.all(
-      config.predictions.map((id) => 
-        get(process.env.FLUSSHYGIENE.replace("$ID", id[0]))
-          .then((body) => JSON.parse(body))
+      config.predictions.map((id) =>
+        get(
+          `${process.env.FLUSSHYGIENE_API_HOST}/api/v1/public/bathingspots/${id[0]}/predictions`
+        ).then((body) => JSON.parse(body))
       )
     )
   ])
