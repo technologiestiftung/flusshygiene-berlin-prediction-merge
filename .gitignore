@@ -109,3 +109,7 @@ dist
 terraform/terraform.tfvars
 terraform/.terraform
 terraform/terraform.tfstate
+lib/merge.test.js
+terraform/terraform.tfstate.1612868527.backup
+terraform/terraform.tfstate.backup
+terraform/.terraform.lock.hcl
