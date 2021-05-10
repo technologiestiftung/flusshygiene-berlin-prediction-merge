@@ -4,6 +4,7 @@ module.exports = {
     "<rootDir>/__tests__/mocks/",
     "__tests__/jest-setup.js",
   ],
+  coveragePathIgnorePatterns: ["/node_modules/", "__tests-fixtures/"],
   coverageReporters: ["text", "lcov"],
   coverageThreshold: {
     global: {
