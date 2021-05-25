@@ -1,6 +1,7 @@
 _legacy
 .env
 temp
+tmp
 
 # Logs
 logs
