@@ -32,5 +32,5 @@ jobs:
         run: nvm install
       - name: install deps
         run: npm ci
-      - name: exec cronhjob
+      - name: exec cronjob
         run: node index.js
