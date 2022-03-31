@@ -111,6 +111,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://fabianmoronzirfas.me/"><img src="https://avatars.githubusercontent.com/u/315106?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Fabian Morón Zirfas</b></sub></a><br /><a href="https://github.com/technologiestiftung/flusshygiene-berlin-prediction-merge/commits?author=ff6347" title="Code">💻</a> <a href="https://github.com/technologiestiftung/flusshygiene-berlin-prediction-merge/commits?author=ff6347" title="Documentation">📖</a></td>
     <td align="center"><a href="http://www.sebastianmeier.eu/"><img src="https://avatars.githubusercontent.com/u/302789?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Sebastian Meier</b></sub></a><br /><a href="https://github.com/technologiestiftung/flusshygiene-berlin-prediction-merge/commits?author=sebastian-meier" title="Code">💻</a> <a href="https://github.com/technologiestiftung/flusshygiene-berlin-prediction-merge/commits?author=sebastian-meier" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/vogelino"><img src="https://avatars.githubusercontent.com/u/2759340?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Lucas Vogel</b></sub></a><br /><a href="https://github.com/technologiestiftung/flusshygiene-berlin-prediction-merge/commits?author=vogelino" title="Documentation">📖</a></td>
   </tr>
 </table>
 
