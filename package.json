@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "aws-sdk": "^2.831.0",
-    "csv-parse": "^4.15.0"
+    "csv-parse": "^5.0.0"
   }
 }
